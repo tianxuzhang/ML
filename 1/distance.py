@@ -1,6 +1,6 @@
 ﻿# -*- coding: utf-8 -*-
 from numpy import *
-import scipy.spatial.distance.pdist as dist
+#import scipy.spatial.distance.pdist as dist
 # 欧式距离
 rand = random.rand(5,5)
 print '---Euclidean Distance---'
@@ -31,5 +31,5 @@ h = shape(n[0])[0]
 print h
 
 # 杰卡德距离
-print '---Jaccard Similarity Coefficient---'
-print dist.pdist(V,'jaccard')
+#print '---Jaccard Similarity Coefficient---'
+#print dist.pdist(V,'jaccard')

@@ -8,3 +8,8 @@ print val
 
 print 'eigenvector'
 print vec
+
+m,n = shape(a)
+sigma = val * eye(m)
+print 'original matrix'
+print vec * sigma * vec
